@@ -1,0 +1,231 @@
+     ****Creat db on Mongo and insert Using  these  json data ***
+      ..........json.........................
+  {
+         "id":1,
+        "name": "Flowery",
+        "tag": "artculsmall0",
+        "image": "/assets/images/artculsmall0.jpg",
+        "price":20 ,
+        "productCode":"Y-001" ,
+        "condition":"New"   ,
+        "quantity":10    ,
+        "availability":false   ,
+        "brand":"Y-style"        ,
+        "category":"Art"       ,
+        "rateCount":5      ,
+        "featured": false,
+        "ProductDescription": "Home Decore clothing multi purpose."
+        
+    }
+     {
+       "id":2,
+        "name": "Idea&Art",
+        "tag": "artculsmall1",
+        "image": "/assets/images/artculsmall1.jpg",
+        "price":25 ,
+        "productCode":"Y-002" ,
+        "condition":"New"   ,
+        "quantity":5     ,
+        "availability":false  ,
+        "brand":"Y-book"        ,
+        "category":"Art"       ,
+        "rateCount":5       ,
+       "featured": false,
+        "ProductDescription": "The book give the redear more idea and art view."
+       
+    }
+   {
+       "id":3,
+        "name": "Silent Life",
+        "tag": "artculsmall2",
+        "image": "/assets/images/artculsmall2.jpg",
+        "price":15 ,
+        "productCode":"Y-003" ,
+        "condition":"Iconic"   ,
+        "quantity":1     ,
+        "availability":false  ,
+        "brand":"Y-picture"        ,
+        "category":"art"       ,
+        "rateCount": 4      ,
+       "featured": true,
+        "ProductDescription": "These potograpic  Picture tells what you see Memories for some one."
+       
+    }
+     {
+       "id":4,
+        "name": "Ready mood ",
+        "tag": "artmid4",
+        "image": "/assets/images/artmid4.jpg",
+        "price": 20,
+        "productCode":"Y-004" ,
+        "condition":"New"   ,
+        "quantity": 5    ,
+        "availability":false   ,
+        "brand":"Y-cool"        ,
+        "category":"art"       ,
+        "rateCount": 5      ,
+       "featured": true,
+        "ProductDescription": " The Morning time readiness for a new day."
+       
+    }
+     {
+       "id":5,
+        "name": "CameraMega",
+        "tag": "technologylmid1",
+        "image": "/assets/images/technologylmid1.jpg",
+        "price":3500 ,
+        "productCode":"Y-005" ,
+        "condition":"New"   ,
+        "quantity":3     ,
+        "availability":false   ,
+        "brand":"Y-Techno"        ,
+        "category":"technology"       ,
+        "rateCount":5      ,
+       "featured": false,
+        "ProductDescription": "If you like shooting picture the from any distance."
+        
+    }
+
+     {
+        "id":6,
+        "name": "MacBook",
+        "tag": "technologymid0",
+        "image": "/assets/images/technologymid0.jpg",
+        "price":2000 ,
+        "productCode":"Y-006" ,
+        "condition":"New"   ,
+        "quantity":2     ,
+        "availability":"InStock"   ,
+        "brand":"Y-Apple"        ,
+        "category":"technology"       ,
+        "rateCount":5       ,
+       "featured": false,
+        "ProductDescription": "2.6GHz 6‑core Nth‑generation Intel Core i7 processor, Turbo Boost up to 4.5GHz."
+        
+    }
+
+     {
+        "id":7,
+        "name": "Pc-monitor",
+        "tag": "technologymid2",
+        "image": "/assets/images/technologymid2.jpg",
+        "price":600 ,
+        "productCode":"Y-007" ,
+        "condition":"New"   ,
+        "quantity":3    ,
+        "availability":"InStock"   ,
+        "brand":"Y-monitor"        ,
+        "category":"technology"       ,
+        "rateCount":5       ,
+       "featured": false,
+        "ProductDescription": "A computer monitor is an output device that displays information in pictorial form. A monitor usually comprises the visual display, circuitry, casing, and power supply."
+        
+    }
+
+     {
+        "id":8,
+        "name": "Pc-surf",
+        "tag": "technologymid4",
+        "image": "/assets/images/technologymid4.jpg",
+        "price":1000 ,
+        "productCode":"Y-008" ,
+        "condition":"New"   ,
+        "quantity":1     ,
+        "availability":"InStock"   ,
+        "brand":"Y-Pc"        ,
+        "category":"technology"       ,
+        "rateCount":5      ,
+       "featured": true,
+        "ProductDescription": "2.6GHz 6‑core Nth‑generation Intel Core i7 processor."
+        
+    }
+
+     {
+        "id":9,
+        "name": "Wsporty",
+        "tag": "fashionsmall0",
+        "image": "/assets/images/fashionsmall0.jpg",
+        "price":45 ,
+        "productCode":"Y-009" ,
+        "condition":"New"   ,
+        "quantity":4     ,
+        "availability":"InStock"   ,
+        "brand":"Y-Apparel"        ,
+        "category":"fashion"       ,
+        "rateCount":5       ,
+       "featured": false,
+        "ProductDescription": "simple and give body flexblity for any movment."
+        
+    }
+
+     {
+      "id":10,
+        "name": "MenCombination",
+        "tag": "fashionsmall1",
+        "image": "/assets/images/fashionsmall1.jpg",
+        "price":400,
+        "productCode":"Y-010" ,
+        "condition":"New"   ,
+        "quantity":1     ,
+        "availability":"InStock"   ,
+        "brand":"Y-Apparel"        ,
+        "category":"fashion"       ,
+        "rateCount":5       ,
+       "featured": false,
+        "ProductDescription": "They All fit together Stylesh."
+        
+    }
+
+     {
+        "id":11,
+        "name": "coolish",
+        "tag": "artculsmall2",
+        "image": "/assets/images/fashionsmall2.jpg",
+        "price":25 ,
+        "productCode":"Y-011" ,
+        "condition":"New"   ,
+        "quantity":3     ,
+        "availability":false   ,
+        "brand":"Y-Apparel"        ,
+        "category":"fashion"       ,
+        "rateCount":5       ,
+       "featured": false,
+        "ProductDescription": "Its for windy fall time as well as for biggning of winter."
+        
+    }
+
+     {
+        "id":12,
+        "name": "sunny",
+        "tag": "/fashionsmall3",
+        "image": "/assets/images/fashionsmall3.jpg",
+        "price":60 ,
+        "productCode":"Y-012" ,
+        "condition":"New"   ,
+        "quantity":4     ,
+        "availability":"InStock"   ,
+        "brand":"Y-Apparel"        ,
+        "category":"fashion"       ,
+        "rateCount":5       ,
+       "featured": false,
+        "ProductDescription": "It looks good wearing spending time at sea shore or for walking at any road"
+        
+    }
+
+     {
+        "id":13,
+        "name": "wave",
+        "tag": "fashionmid4",
+        "image": "/assets/images/fashionmid4.jpg",
+        "price":50 ,
+        "productCode":"Y-13" ,
+        "condition":"New"   ,
+        "quantity":0     ,
+        "availability":false   ,
+        "brand":"Y-Apparel"        ,
+        "category":"fashion"       ,
+        "rateCount":5       ,
+       "featured": true,
+        "ProductDescription": "easybeasybest"
+        
+    }

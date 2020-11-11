@@ -1,0 +1,23 @@
+****you can test  user and  products CRUD opration  by using postman*****
+ {
+          "id":14,
+        "name": "Flowery1",
+        "tag": "artculsmall0",
+        "image": "/assets/images/artculsmall0.jpg",
+        "price":40 ,
+        "productCode":"Y-0011" ,
+        "condtion":"New"   ,
+        "quantity":1    ,
+        "avaliblity":true   ,
+        "brand":"Y-style"        ,
+        "catgory":"Art"       ,
+        "rateCount":5      ,
+        "featured": true,
+        "ProductDescription": "Home Decore clothing multi purpose.addddded"
+        
+    }
+{   
+   
+     "username": "admin",
+     "password": "password"
+}
